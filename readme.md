@@ -28,7 +28,3 @@ This is a personal portfolio website for **Pallavi Sekar**, showcasing skills, w
 - **Styling**: Custom CSS with glassmorphism and hover animations
 - **Assets**: Images, icons, and downloadable PDF resume
 - **Frameworks/Libraries**: None (pure HTML/CSS/JS)
-
----
-
-## Project Structure
