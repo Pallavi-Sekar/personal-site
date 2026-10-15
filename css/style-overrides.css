@@ -1,0 +1,75 @@
+/* Portfolio updates: load after your existing style.css */
+
+/* Shift the visible crop slightly upward in the circular profile icon. */
+.nav-icon {
+  object-position: center 15%;
+}
+
+/* Keep the project cards comfortable as the portfolio grows. */
+#projects .experience-carousel-container {
+  align-items: stretch;
+  scroll-behavior: smooth;
+}
+
+#projects .exp-card {
+  box-sizing: border-box;
+  min-height: 450px;
+}
+
+#projects .project-links {
+  margin-top: auto;
+  padding-top: 20px;
+}
+
+/* Prevent the navigation from overflowing on smaller screens. */
+@media (max-width: 760px) {
+  .top-nav {
+    padding: 10px 16px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .nav-links {
+    width: 100%;
+    overflow-x: auto;
+    padding-bottom: 4px;
+  }
+
+  .nav-btn {
+    padding: 7px 12px;
+    font-size: 13px;
+    white-space: nowrap;
+  }
+
+  .section-wrapper:first-of-type {
+    padding-top: 100px;
+  }
+
+  .bg {
+    width: 92%;
+    padding: 26px;
+  }
+
+  .experience-carousel-container {
+    width: 100%;
+    padding: 20px 22px;
+    box-sizing: border-box;
+  }
+
+  .exp-card {
+    flex-basis: 290px;
+    padding: 22px;
+  }
+
+  .contact-grid {
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+  }
+
+  .footer-bottom {
+    padding: 18px 20px;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+}
